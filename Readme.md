@@ -28,6 +28,10 @@ Below, you will find instructions on how to open the app.
 
 `ionic`
 
+## Postman link
+
+https://documenter.getpostman.com/view/38432220/2sAXxMfD9e
+
 ## Authors
 
 - **Daniel Matías** - _Initial work_ - [Smosherty](https://github.com/Smosherty)
