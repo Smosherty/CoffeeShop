@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Coffee Shop</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Your coffee</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="frontImg">
+    <div class="frontCov">
+      <div class="frontText">
+        <h1>Bienvenio a mi app "The Coffe Shop"</h1>
+        <h4>Donde el café no es solo una bebida, ¡es una experiencia!</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="title">
+    <h1>Nuestros Cafés</h1>
+    <h5>Nuestra página cuenta con una variedad de cafés elaborados con granos de calidad Gold</h5>
+  </div>
+
+  <div class="Cards">
+
+    <ion-card class="ionCards">
+      <div class="img">
+        <img class="cardImg" src="assets/images/Cafe-solo.jpg" alt="No sale">
+      </div>
+      <ion-card-header>
+        <ion-card-title>Café solo</ion-card-title>
+        <ion-card-subtitle>Tan negro como el corazón de tu ex</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Para los amantes del café en su estado mas puro
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="ionCards">
+      <div class="img">
+        <img class="cardImg" src="assets/images/Cafe-Nata.jpg" alt="No sale">
+      </div>
+      <ion-card-header>
+        <ion-card-title>Café Con nata</ion-card-title>
+        <ion-card-subtitle>¡Un abrazo en cada sorbo!</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        El café que endulza cualquier amargo recuerdo
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="ionCards">
+      <div class="img">
+        <img class="cardImg" src="assets/images/cafe-nubes.jpg" alt="No sale">
+      </div>
+      <ion-card-header>
+        <ion-card-title>Café con nubecitas</ion-card-title>
+        <ion-card-subtitle>¡Perfecto para soñar despierto!</ion-card-subtitle>
+      </ion-card-header>
+      
+      <ion-card-content>
+        Una delicia suave y cremosa que eleva tu café a las alturas
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="ionCards">
+      <div class="img">
+        <img class="cardImg" src="assets/images/cafe-cortado.jpg" alt="No sale">
+      </div>
+      <ion-card-header>
+        <ion-card-title>Café cortado</ion-card-title>
+        <ion-card-subtitle>Ideal para quienes saben que menos es más</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        El equilibrio perfecto entre el café la leche
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+  <ion-button expand="block" (click)="gotoOrders()">Haz tu pedido ahora</ion-button>
+</ion-content>

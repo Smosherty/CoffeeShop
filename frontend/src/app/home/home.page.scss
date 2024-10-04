@@ -1,0 +1,42 @@
+.frontImg{
+    height: 800px;
+    background-image: url('../../assets/images/cafe-bombon.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontCov{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 20px;
+}
+
+.frontText{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    margin: 15px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardImg{
+    height: 170px;
+    width: 400px;
+}
+
+
+
+.ionCards{
+    width: 300px;
+    margin: 10px;
+}
